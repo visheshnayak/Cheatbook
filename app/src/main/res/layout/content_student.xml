@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.faceless.cheatbook.Student"
+    tools:showIn="@layout/activity_student"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category: Student"
+        android:textSize="40sp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maths : Entire math concepts in one page!!."
+        android:gravity="center"
+        android:textSize="20sp"
+        android:onClick="math"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/math"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chemistry : Contains all the chemistry concepts."
+        android:gravity="center"
+        android:textSize="20sp"
+        android:onClick="chemistry"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/chem"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Physics : Contains all the physics concepts and formulae."
+        android:gravity="center"
+        android:textSize="20sp"
+        android:onClick="physics"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/phy"/>
+
+</LinearLayout>
